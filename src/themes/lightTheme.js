@@ -11,8 +11,9 @@ const lightTheme = createTheme({
       main: '#f48fb1', 
     },
     background: {
-      default: '#ffffff', // Default background color
-      paper: '#f5f5f5', // Paper background color
+      //default: '#ffffff', // Default background color
+      default: '#f0f0f0', // Default background color
+      //paper: '#f5f5f5', // Paper background color
     },
     text: {
       primary: '#333333', // Primary text color

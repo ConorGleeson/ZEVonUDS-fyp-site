@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ZEVonUDS-fyp-site/static/css/main.e6c13ad2.css",
-    "main.js": "/ZEVonUDS-fyp-site/static/js/main.4fa092e8.js",
+    "main.css": "/ZEVonUDS-fyp-site/static/css/main.ec80e624.css",
+    "main.js": "/ZEVonUDS-fyp-site/static/js/main.9f0d8914.js",
     "static/js/787.00dfca35.chunk.js": "/ZEVonUDS-fyp-site/static/js/787.00dfca35.chunk.js",
     "index.html": "/ZEVonUDS-fyp-site/index.html",
-    "main.e6c13ad2.css.map": "/ZEVonUDS-fyp-site/static/css/main.e6c13ad2.css.map",
-    "main.4fa092e8.js.map": "/ZEVonUDS-fyp-site/static/js/main.4fa092e8.js.map",
+    "main.ec80e624.css.map": "/ZEVonUDS-fyp-site/static/css/main.ec80e624.css.map",
+    "main.9f0d8914.js.map": "/ZEVonUDS-fyp-site/static/js/main.9f0d8914.js.map",
     "787.00dfca35.chunk.js.map": "/ZEVonUDS-fyp-site/static/js/787.00dfca35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.4fa092e8.js"
+    "static/css/main.ec80e624.css",
+    "static/js/main.9f0d8914.js"
   ]
 }

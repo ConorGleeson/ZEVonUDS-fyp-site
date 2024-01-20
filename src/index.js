@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
 import HomePage from './pages/homePage/homePage';
+import lightTheme from './themes/lightTheme';
 import { ThemeProvider } from '@mui/system';  // Update this import
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
+    <ThemeProvider theme={lightTheme}>
       <Router>
         <Routes>
           <Route path="/ZEVonUDS-fyp-site" element={<HomePage />} />

@@ -33,7 +33,7 @@ const MainPage = () => {
             <Typography variant="h5" sx={{ fontSize: '2rem', color: 'white' }}>Project Links</Typography>
 
 
-            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center',  '&:hover': { background: '#DC143C' } }}>
               <Link to={placeholderSiteLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <Typography variant="body1" sx={{ fontSize: '1rem', padding: '0.5rem', color: 'white' }}>Project Repository</Typography>
                 <IconButton>
@@ -42,7 +42,7 @@ const MainPage = () => {
               </Link>
             </Box>
 
-            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center',  '&:hover': { background: '#DC143C' } }}>
             <Link to={placeholderSiteLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <Typography variant="body1" sx={{ fontSize: '1rem', padding: '0.5rem', color: 'white' }}>Project Demo</Typography>
               <IconButton component={Link} to={placeholderSiteLink} target="_blank" rel="noopener noreferrer">
@@ -52,7 +52,7 @@ const MainPage = () => {
             </Box>
 
 
-            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center',  '&:hover': { background: '#DC143C' } }}>
             <Link to={placeholderSiteLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <Typography variant="body1" sx={{ fontSize: '1rem', padding: '0.5rem', color: 'white' }}>Project Poster</Typography>
               <IconButton component={Link} to={placeholderSiteLink} target="_blank" rel="noopener noreferrer">

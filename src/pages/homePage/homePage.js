@@ -38,8 +38,9 @@ const MainPage = () => {
 
         <Grid item xs={12} md={9}>
           <Typography variant="body1" sx={{ fontSize: '1rem', padding: '0.5rem' }}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-          </Typography>
+          With Electric Vehicles (EVs) becoming more and more common in our lives questions arise about keeping them running and in good condition in the long term. With standards and expectations long set out for combustion engine vehicles we must now adapt these processes for use with new technologies. 
+The project aims to simulate the diagnostic functionalities of an EVs electronic control unit (ECU) using a Raspberry Pi and Vector CANoe software. By leveraging standards like OBD, UDS, and the emerging ZEVonUDS, the simulation will monitor battery health, fault detection, and data transmission over a CAN bus network. Key components include setting up the DEM and DCM modules on the Pi, and establishing communication with CANoe. 
+            </Typography>
         </Grid>
         <Grid item xs={12} md={3}>
         <Box sx={{

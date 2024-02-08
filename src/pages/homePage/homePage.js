@@ -32,7 +32,7 @@ const MainPage = () => {
       <Box sx={{ backgroundColor: '#A9A9A9', padding: '1em', borderRadius: '10px', marginTop: '1em', textAlign: 'center', width: '100%', margin: 0 }}>
         <Typography variant="h5" sx={{ fontSize: '2rem' }}>Project Details</Typography>
       </Box>
-      <Typography variant='body1' sx={{ fontSize: '1rem', padding: '0.5rem' }}>Academic Title: ZEVonUDS Protocol Stack Implmentation</Typography>
+      <Typography variant='body1' sx={{ fontSize: '1rem', padding: '0.5rem' }}>Academic Title: ZEVonUDS Protocol Stack Implementation</Typography>
       <Typography variant='body1' sx={{ fontSize: '1rem' }}>Commercial Title: Electric Vehicle Diagnostics</Typography>
 
       <Grid container spacing={3} sx={{ marginTop: '2em' }}>

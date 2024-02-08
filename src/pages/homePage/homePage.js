@@ -9,12 +9,13 @@ import ArticleIcon from '@mui/icons-material/Article';
 const MainPage = () => {
   const placeholderSiteLink = "https://i.kym-cdn.com/entries/icons/original/000/047/760/dt.jpg";
   return (
-    <Container sx={{ alignContent: 'center', alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', padding: '2em 0', maxWidth: '100%' }}>
+    <Container sx={{ alignContent: 'center', alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', padding: '2em 0', maxWidth: '100%',  }}>
      <Box sx={{
   backgroundColor: '#D2042D',
   padding: '5em',
   borderRadius: '30px',
   textAlign: 'center', // Center the text
+  marginBottom: '2em', 
   '@media (max-width: 600px)': {
     padding: '2em',
     borderRadius: '15px',
@@ -31,12 +32,13 @@ const MainPage = () => {
       <Box sx={{ backgroundColor: '#A9A9A9', padding: '1em', borderRadius: '10px', marginTop: '1em', textAlign: 'center', width: '100%', margin: 0 }}>
         <Typography variant="h5" sx={{ fontSize: '2rem' }}>Project Details</Typography>
       </Box>
-      <Typography variant='body1' sx={{ fontSize: '1rem', padding: '0.5rem' }}>Academic Title: "Lorem ipsum dolor sit amet"</Typography>
-      <Typography variant='body1' sx={{ fontSize: '1rem' }}>Commercial Title: "Lorem ipsum dolor sit amet"</Typography>
+      <Typography variant='body1' sx={{ fontSize: '1rem', padding: '0.5rem' }}>Academic Title: ZEVonUDS Protocol Stack Implmentation</Typography>
+      <Typography variant='body1' sx={{ fontSize: '1rem' }}>Commercial Title: Electric Vehicle Diagnostics</Typography>
 
       <Grid container spacing={3} sx={{ marginTop: '2em' }}>
 
         <Grid item xs={12} md={9}>
+          <Typography variant="h5" sx={{ fontSize: '2rem', textAlign: 'center'}}>Project Summary</Typography>
           <Typography variant="body1" sx={{ fontSize: '1rem', padding: '0.5rem' }}>
           With Electric Vehicles (EVs) becoming more and more common in our lives questions arise about keeping them running and in good condition in the long term. With standards and expectations long set out for combustion engine vehicles we must now adapt these processes for use with new technologies. 
 The project aims to simulate the diagnostic functionalities of an EVs electronic control unit (ECU) using a Raspberry Pi and Vector CANoe software. By leveraging standards like OBD, UDS, and the emerging ZEVonUDS, the simulation will monitor battery health, fault detection, and data transmission over a CAN bus network. Key components include setting up the DEM and DCM modules on the Pi, and establishing communication with CANoe. 

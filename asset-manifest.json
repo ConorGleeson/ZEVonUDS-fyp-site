@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ZEVonUDS-fyp-site/static/css/main.ec80e624.css",
-    "main.js": "/ZEVonUDS-fyp-site/static/js/main.7253f61a.js",
+    "main.js": "/ZEVonUDS-fyp-site/static/js/main.b45219f2.js",
     "static/js/787.00dfca35.chunk.js": "/ZEVonUDS-fyp-site/static/js/787.00dfca35.chunk.js",
     "index.html": "/ZEVonUDS-fyp-site/index.html",
     "main.ec80e624.css.map": "/ZEVonUDS-fyp-site/static/css/main.ec80e624.css.map",
-    "main.7253f61a.js.map": "/ZEVonUDS-fyp-site/static/js/main.7253f61a.js.map",
+    "main.b45219f2.js.map": "/ZEVonUDS-fyp-site/static/js/main.b45219f2.js.map",
     "787.00dfca35.chunk.js.map": "/ZEVonUDS-fyp-site/static/js/787.00dfca35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec80e624.css",
-    "static/js/main.7253f61a.js"
+    "static/js/main.b45219f2.js"
   ]
 }

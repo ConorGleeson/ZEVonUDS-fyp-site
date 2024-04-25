@@ -7,7 +7,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import ArticleIcon from '@mui/icons-material/Article';
 
 const MainPage = () => {
-  const placeholderSiteLink = "https://i.kym-cdn.com/entries/icons/original/000/047/760/dt.jpg";
+  const placeholderSiteLink = "https://conorgleeson.github.io/ZEVonUDS-fyp-site";
+  const githubLink = "https://github.com/ConorGleeson/cantest";
   return (
     <Container sx={{ alignContent: 'center', alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', padding: '2em 0', maxWidth: '100%',  }}>
      <Box sx={{
@@ -82,7 +83,7 @@ The project aims to simulate the diagnostic functionalities of an EVs electronic
         <GitHubIcon sx={{ color: 'white' }} />
       </IconButton>
     </Link>
-    <Link to={placeholderSiteLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', marginBottom: '0.5em' }}>
+    <Link to={githubLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', marginBottom: '0.5em' }}>
       <Typography variant="body1" sx={{ 
         fontSize: '1rem', // Original font size
         color: 'white',
